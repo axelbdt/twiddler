@@ -1,0 +1,52 @@
+Backspice 2 Layout: done
+.---------------.---------------.---------------.-------------------------------.---------------.---------------.---------------.
+|BCKSP SPC   s  |  •            |       •       |            •  |               |  •            |  •            |  •            |
+|               |               |               |               |               |               |               |               |
+|  i    e    o  |  3    ↑    6  |  c    ←    →  | is   es    .  |  •            |  •            |       •       |            •  |
+|   in   et   or|  CPY   0    9 |   ,   DEL   ou|       PUP   ; |               |               |               |               |
+|  n    t    r  |  4    ↓    7  |  d    l    u  |  {   st    }  | in   it    +  | CPY  PST  CUT |  &    0    \  |            9  |
+|   an   th  FND|   8    1      |  and  ENTR    |   (    )      |  ing   k      |   F1   F2   F3|  F10  F11  F12|               |
+|  a    h   TAB |  5    2   ESC |  f    m    _  | as    w    `  |  g    y    ^  | UDO  RDO      |  @    "       |  [    ]       |
+|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
+|               |       •       |       •       |       •       |               |            •  |            •  | ESC   _    `  |
+|               |               |               |               |               |               |               |               |
+|       •       |  •            |       •       |            •  |            •  |       •       |            •  |  ^    ~    %  |
+|               |               |               |               |               |               |               |               |
+| en   et   er  |  ,   il       | ed   DEL   q  |ion    :   ou  | on   ot   or  | HOM  PUP  END |  #    ?    ;  |           FND |
+|   *   the     |               |   F4   F5   F6|               |  ALL   z    NL|               |   F7   F8   F9|               |
+|  v    p    ~  | ac   ch       |  j    -       | of   om       |  /    b    %  | INS  PDN  CPS |  <    >       |            •  |
+|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
+|  5    f   as  | NAM  al       |       =       |  2    m    w  |
+|  UDO   j    < |               |               |  RDO   -    > |
+|  g    v    /  |  |    '    $  |            !  |  y    p    b  |
+|  ing   '      |               |               |       the   ! |
+| an   at   ar  |       •       |            •  |      th    x  |
+|               |               |               |               |
+|  •            |  •            |       •       |       •       |
+'---------------'---------------'---------------'---------------'
+
+Explanation of the table:
+Each cell represents Twiddler with a 3x4 grid of buttons.
+Diagram is drawn for Twiddler facing away from the user.
+
+.---------------.
+|BCKSP SPC   s  | <- 1st button row
+|               |
+|  i    e    o  | <- 2nd button row
+|   in   et   or| <- press the closest buttons in both 2nd and 3d rows
+|  n    t    r  | <- 3d button row
+|   an   th  FND| <- press the closest buttons in both 3d and 4th rows
+|  a    h   TAB | <- 4th button row
+'---------------'
+   |    |    |
+   |    |    3d button column (historically designated as L = Left)
+   |    2nd button column (M = Middle)
+   1st button column (historically designated as R = Right)
+
+To type "et", press and release simultaneously two buttons: <e> and <t>
+
+Additional chords (using Left-Middle-Right-Omitted notation):
+MLLM - make text bold
+OMLM - Print Screen on Windows
+
+There are 27 MCCs (Multi Character Chords) as of 2/1/2018
